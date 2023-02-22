@@ -1,0 +1,19 @@
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Send china_250k_L500 repository to Dataverse
+        uses: IQSS/dataverse-uploader@v1.3
+        with:
+          DATAVERSE_TOKEN: e8a8e7da-74b4-4dd9-aee8-5f67630e1011
+          DATAVERSE_SERVER: https://abacus-staging.library.ubc.ca 
+          DATAVERSE_DATASET_DOI: hdl:11272/AB2/A9LWMW
+          GITHUB_DIR: china_250k_L500
+          PUBLISH: False
