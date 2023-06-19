@@ -1,5 +1,6 @@
 {
 "type": "FeatureCollection",
+"name": "nonna_p10_packages",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "label": "NONNAP_6", "datePub": "2022-04-21", "west": "-67", "east": "-59", "north": "51", "south": "49", "color": "32 bit single band", "title": "NONNAP_6", "publisher": "Canadian Hydrographic Service", "projection": "EPSG:4326 - WGS 84", "inst": "University of British Columbia Library", "available": "true", "digHold": "https://abacus.library.ubc.ca/file.xhtml?fileId=105474", "download": "https://abacus.library.ubc.ca/api/access/datafile/105474", "websiteUrl": "https://hdl.handle.net/11272.1/AB2/YJPER2", "fileName": "NONNAP_6_TIFF.zip", "note": "Zip file contains available rasters for package 6 in GeoTIFF format" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -67.0, 49.0 ], [ -67.0, 51.0 ], [ -59.0, 51.0 ], [ -59.0, 49.0 ], [ -67.0, 49.0 ] ] ] ] } },

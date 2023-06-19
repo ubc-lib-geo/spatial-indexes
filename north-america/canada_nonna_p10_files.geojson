@@ -1,5 +1,6 @@
 {
 "type": "FeatureCollection",
+"name": "nonna_p10_files",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "label": "NONNAP10_5900N06800W", "datePub": "2022-04-21", "west": "-68", "east": "-67", "north": "60", "south": "59", "color": "32 bit single band", "title": "NONNAP10_5900N06800W", "projection": "EPSG:4326 - WGS 84", "inst": "University of British Columbia Library", "available": "true", "download": "https://abacus.library.ubc.ca/api/access/datafile/105498", "websiteUrl": "https://hdl.handle.net/11272.1/AB2/YJPER2", "fileName": "NONNAP10_5900N06800W.tiff", "note": "Included in NONNAP_16_TIFF.zip", "publisher": "Canadian Hydrographic Service" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -68.0, 59.0 ], [ -68.0, 60.0 ], [ -67.0, 60.0 ], [ -67.0, 59.0 ], [ -68.0, 59.0 ] ] ] ] } },
