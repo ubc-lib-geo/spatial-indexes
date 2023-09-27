@@ -12,8 +12,8 @@ jobs:
       - name: Send 'asia' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
-          DATAVERSE_TOKEN: e8a8e7da-74b4-4dd9-aee8-5f67630e1011
-          DATAVERSE_SERVER: https://abacus-staging.library.ubc.ca 
+          DATAVERSE_TOKEN: ca609de4-735c-4035-925e-e5a5e09c9e56
+          DATAVERSE_SERVER: https://abacus.library.ubc.ca 
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/XNNMLU
           GITHUB_DIR: asia
           DELETE: True
@@ -21,8 +21,8 @@ jobs:
       - name: Send 'europe' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
-          DATAVERSE_TOKEN: e8a8e7da-74b4-4dd9-aee8-5f67630e1011
-          DATAVERSE_SERVER: https://abacus-staging.library.ubc.ca 
+          DATAVERSE_TOKEN: ca609de4-735c-4035-925e-e5a5e09c9e56
+          DATAVERSE_SERVER: https://abacus.library.ubc.ca 
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/S3CB2Q
           GITHUB_DIR: europe
           DELETE: True
@@ -30,8 +30,8 @@ jobs:
       - name: Send 'north-america' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
-          DATAVERSE_TOKEN: e8a8e7da-74b4-4dd9-aee8-5f67630e1011
-          DATAVERSE_SERVER: https://abacus-staging.library.ubc.ca 
+          DATAVERSE_TOKEN: ca609de4-735c-4035-925e-e5a5e09c9e56
+          DATAVERSE_SERVER: https://abacus.library.ubc.ca 
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/DWEUNF
           GITHUB_DIR: north-america
           DELETE: True
