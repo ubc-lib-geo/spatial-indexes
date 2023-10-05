@@ -1,6 +1,6 @@
 on: 
   release:
-  workflow_dispatch:
+  workflow_dispatch: # Workflow will run when GitHub Action is manually triggered
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - name: Send 'asia' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
-          DATAVERSE_TOKEN: ca609de4-735c-4035-925e-e5a5e09c9e56
+          DATAVERSE_TOKEN: ca609de4-735c-4035-925e-e5a5e09c9e56 # Per Paul's advice, need to replace personal with institutional (if wanting to send to production server, rather than staging server)
           DATAVERSE_SERVER: https://abacus.library.ubc.ca 
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/XNNMLU
           GITHUB_DIR: asia
