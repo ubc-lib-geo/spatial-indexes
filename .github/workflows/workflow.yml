@@ -17,7 +17,7 @@ jobs:
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/XNNMLU
           GITHUB_DIR: asia
           DELETE: True
-          PUBLISH: True
+          PUBLISH: False
       - name: Send 'europe' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
@@ -26,7 +26,7 @@ jobs:
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/S3CB2Q
           GITHUB_DIR: europe
           DELETE: True
-          PUBLISH: True
+          PUBLISH: False
       - name: Send 'north-america' repository to Dataverse
         uses: IQSS/dataverse-uploader@v1.3
         with:
@@ -35,4 +35,4 @@ jobs:
           DATAVERSE_DATASET_DOI: hdl:11272/AB2/DWEUNF
           GITHUB_DIR: north-america
           DELETE: True
-          PUBLISH: True
+          PUBLISH: False
